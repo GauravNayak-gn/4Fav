@@ -1,0 +1,133 @@
+body {
+  font-family: "Montserrat";
+  text-align: center;
+  background-color: #151515;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat-Bold";
+}
+
+p {
+  color: #8f8f8f;
+}
+
+.nav-color {
+  background-color: #3e3759;
+  border-radius: 5%;
+}
+    /* navbar text */
+/* .holder {
+  padding: 2% 3%;
+  font-size: large;
+} */
+
+    /* quote text */
+.big-heading {
+  padding: 2% 0%;
+  color: white;
+}
+hd-section{
+  font-size: 32rem;
+}
+  /* heading */
+.head-1 {
+  text-align: left;
+  margin-left: 5%;
+}
+.head-2{
+  text-align: left;
+  margin-left: 1%;
+}
+    /* image edit */
+    
+.crop {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  object-position: 50% 50%;
+}
+    /* hover animation */
+.grow {
+  transition: all .2s ease-in-out;
+}
+
+.grow:hover {
+  transform: scale(1.1);
+}
+.featured-content {
+  height: 70vh;
+  padding: 50px;
+}
+.row-box{
+  padding-bottom: 4%;
+}
+.card-text{
+  color: #151515;
+  font-weight: 600;
+}
+.card-body{
+  background-color: #8f8f8f;
+}
+
+/* div box */
+
+.div-box{
+  text-align: left;
+}
+
+.image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  object-position: 50% 50%;
+  padding: 5% 5%;
+  vertical-align: middle;
+  
+}
+
+
+.main {
+  background-color: purple;
+
+}
+.main2{
+  background-color:  #151515;
+  color: violet;
+  border-top: 2px solid violet;
+  border-bottom: 2px solid violet;
+  
+}
+.col, .col1 ,.col2, .col-head, .col-body{
+  margin: 1% 0;
+  height: 25%;
+  padding: 0 0;
+}
+
+.col {
+  background-color: red;
+}
+.col-head{
+  background-color: white;
+  margin: 0 0;
+}
+.col-body{
+  background-color: violet;
+}
+.col1 {
+  background-color: green;
+}
+
+
+/* div-box end */
+
+ /* footer */
+ .foot{
+  padding-top: 4% ;
+  padding-bottom: 2%;
+ }
