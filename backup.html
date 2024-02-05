@@ -1,0 +1,1507 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>4 fav movies scrap</title>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Ubuntu" rel="stylesheet">
+
+    <!-- css stylesheets -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+    <!-- bootstrap scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js"
+        integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk"
+        crossorigin="anonymous"></script>
+
+    <!-- angular script -->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular-route.min.js"></script>
+    <script type="text/javascript">
+        var app = angular.module('myApp', [])
+        app.controller('myController', function ($scope) {
+            //This will hide the DIV by default.
+            $scope.IsHidden = true;
+            $scope.ShowHide = function () {
+                //If DIV is hidden it will be visible and vice versa.
+                $scope.IsHidden = $scope.IsHidden ? false : true;
+            }
+        });
+    </script>
+
+</head>
+
+<body ng-app="myApp" ng-controller="myController">
+    <section class="featured-content"
+        style="background: linear-gradient(to bottom, rgba(0,0,0,0), #151515), url('sky.png');">
+
+        <div class="container-fluid">
+
+            <!-- Nav Bar -->
+
+            <nav class="navbar navbar-expand-lg navbar-dark  nav-color">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="">4 fav </a>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarList">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarList">
+                        <ul class="navbar-nav ms-auto">
+                            <li class="navbar-item">
+                                <a class="nav-link" href="#holly">hollywood</a>
+                            </li>
+                            <li class="navbar-item">
+                                <a class="nav-link" href="#bolly">bollywood</a>
+                            </li>
+                            <li class="navbar-item">
+                                <a class="nav-link" href="#korean">korean</a>
+                            </li>
+                            <li class="navbar-item">
+                                <a class="nav-link" href="#web">webseries</a>
+                            </li>
+                        </ul>
+
+                    </div>
+
+                </div>
+            </nav>
+
+
+            <!-- Title  -->
+
+            <div class="row">
+
+                <div class="col-lg-12">
+                    <h2 class="big-heading">4 FAV </h2>
+                    <h1 class="big-heading">Cinema is a reflection of society and, in most cases, has the ability to be
+                        a
+                        mirror and not just show the problems but also give solutions and help them reach a large number
+                        of
+                        people through faces and voices that matter.</h1>
+                </div>
+
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <h2 id="holly" class="big-heading head-1">
+                        Hollywood
+                        </h1>
+
+                </div>
+
+            </div>
+
+            <!-- title end -->
+
+    </section>
+
+    <!-- hollywood -->
+
+    <section class="hd-section">
+
+        <div class="container row-box">
+
+
+
+            <div class="row">
+                <div class="col-lg-3 col-md-4 col-sm6 grow">
+                    <div class="container-fluid " ng-click="myVar='Shawshank'">
+                        <a href="#dm" target="_top" style="text-decoration: none">
+                            <div class="card" style="width: 18rem;">
+                                <img src="https://i.pinimg.com/236x/dd/41/2e/dd412eccc5007143bea4b401e40dcfd1.jpg"
+                                    class="card-img-top crop" alt="...">
+                                <div class="card-body">
+                                    <p class="card-text">The Shawshank Redemption</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm6 grow">
+                    <div class="container-fluid " ng-click="myVar='Inception'">
+                        <a href="" style="text-decoration: none">
+                            <div class="card" style="width: 18rem;">
+                                <img src="https://i.pinimg.com/236x/8d/ed/f7/8dedf7d102832b4a18a352f7851f61fe.jpg"
+                                    class="card-img-top crop" alt="...">
+                                <div class="card-body">
+                                    <p class="card-text">Inception</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm6 grow">
+                    <div class="container-fluid " ng-click="myVar='INTERSTELLAR'">
+                        <a href="" style="text-decoration: none">
+                            <div class="card" style="width: 18rem;">
+                                <img src="https://i.pinimg.com/236x/d2/70/89/d270896d9bfbc63513d1090224070e8b.jpg"
+                                    class="card-img-top crop" alt="...">
+                                <div class="card-body">
+                                    <p class="card-text">INTERSTELLAR</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm6 grow">
+                    <div class="container-fluid " ng-click="myVar='Fight'">
+                        <a href="" style="text-decoration: none">
+                            <div class="card" style="width: 18rem;">
+                                <img src="https://i.pinimg.com/236x/67/61/a4/6761a4c4037ad0be953a8705dd277782.jpg"
+                                    class="card-img-top crop" alt="...">
+                                <div class="card-body">
+                                    <p class="card-text">Fight Club</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+        <!-- switch case -->
+        <div ng-switch="myVar">
+            <div ng-switch-when="Shawshank">
+                <section>
+                    <div class=" container-fluid div-box main2">
+                        <div class="row">
+                            <div class="col-lg-3 col-md-3">
+                                <div class="container-fluid ">
+                                    <iframe class="image" src="https://www.youtube.com/embed/tgbNymZ7vqY">
+                                    </iframe>
+                                </div>
+                            </div>
+                            <div class="col-lg-9 col-md-9">
+                                <div class="row">
+                                    <div class="col-lg-12 col-md-12 col2">
+                                        <div class="container-fluid">
+                                            <div class="row">
+                                                <div class="col-lg-2">
+                                                    Synopsis:
+                                                </div>
+                                                <div class="col-lg-10">
+                                                    One of the most memorable late 90s rom-coms to date. So many iconic
+                                                    scenes: Julia Stiles flashing the teacher on detention, an iconic
+                                                    Prada backpack conversation, a paintball first date, the black
+                                                    underwear discovery, duck liver and Heath Ledger on the bleachers at
+                                                    soccer practice. This is a great feel good film that takes us back
+                                                    to different times.
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-lg-12 col-md-12 col2">
+                                        <div class="container-fluid">
+                                            <div class="row">
+                                                <div class="col-lg-2">
+                                                    Watch if you like:
+                                                </div>
+                                                <div class="col-lg-10">
+                                                    Madonna. Reading poetry. Therapy. Unconventional ways of thinking.
+                                                    Transforming yourself.
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-lg-12 col-md-12 col2">
+                                        <div class="container-fluid">
+                                            <div class="row">
+                                                <div class="col-lg-2">
+                                                    Watch it on:
+                                                </div>
+                                                <div class="col-lg-10">
+                                                    Amazon Prime (US) + DocPlay + iTunes + Lido (AU)
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </section>
+
+            </div>
+            <div ng-switch-when="Inception">
+                <section>
+                    <div class=" container-fluid div-box main2">
+                        <div class="row">
+                            <div class="col-lg-3 col-md-3">
+                                <div class="container-fluid ">
+                                    <iframe class="image" src="https://www.youtube.com/embed/tgbNymZ7vqY">
+                                    </iframe>
+                                </div>
+                            </div>
+                            <div class="col-lg-9 col-md-9">
+                                <div class="row">
+                                    <div class="col-lg-12 col-md-12 col2">
+                                        <div class="container-fluid">
+                                            <div class="row">
+                                                <div class="col-lg-2">
+                                                    Synopsis:
+                                                </div>
+                                                <div class="col-lg-10">
+                                                    One of the most memorable late 90s rom-coms to date. So many
+                                                    iconic scenes: Julia Stiles flashing the teacher on detention,
+                                                    an iconic Prada backpack conversation, a paintball first date,
+                                                    the black underwear discovery, duck liver and Heath Ledger on
+                                                    the bleachers at soccer practice. This is a great feel good film
+                                                    that takes us back to different times.
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-lg-12 col-md-12 col2">
+                                        <div class="container-fluid">
+                                            <div class="row">
+                                                <div class="col-lg-2">
+                                                    Watch if you like:
+                                                </div>
+                                                <div class="col-lg-10">
+                                                    Madonna. Reading poetry. Therapy. Unconventional ways of
+                                                    thinking. Transforming yourself.
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-lg-12 col-md-12 col2">
+                                        <div class="container-fluid">
+                                            <div class="row">
+                                                <div class="col-lg-2">
+                                                    Watch it on:
+                                                </div>
+                                                <div class="col-lg-10">
+                                                    Amazon Prime (US) + DocPlay + iTunes + Lido (AU)
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </section>
+
+            </div>
+            <div ng-switch-when="INTERSTELLAR">
+                <section>
+                    <div class=" container-fluid div-box main2">
+                        <div class="row">
+                            <div class="col-lg-3 col-md-3">
+                                <div class="container-fluid ">
+                                    <iframe class="image" src="https://www.youtube.com/embed/tgbNymZ7vqY">
+                                    </iframe>
+                                </div>
+                            </div>
+                            <div class="col-lg-9 col-md-9">
+                                <div class="row">
+                                    <div class="col-lg-12 col-md-12 col2">
+                                        <div class="container-fluid">
+                                            <div class="row">
+                                                <div class="col-lg-2">
+                                                    Synopsis:
+                                                </div>
+                                                <div class="col-lg-10">
+                                                    One of the most memorable late 90s rom-coms to date. So many
+                                                    iconic scenes: Julia Stiles flashing the teacher on detention,
+                                                    an iconic Prada backpack conversation, a paintball first date,
+                                                    the black underwear discovery, duck liver and Heath Ledger on
+                                                    the bleachers at soccer practice. This is a great feel good film
+                                                    that takes us back to different times.
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-lg-12 col-md-12 col2">
+                                        <div class="container-fluid">
+                                            <div class="row">
+                                                <div class="col-lg-2">
+                                                    Watch if you like:
+                                                </div>
+                                                <div class="col-lg-10">
+                                                    Madonna. Reading poetry. Therapy. Unconventional ways of
+                                                    thinking. Transforming yourself.
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-lg-12 col-md-12 col2">
+                                        <div class="container-fluid">
+                                            <div class="row">
+                                                <div class="col-lg-2">
+                                                    Watch it on:
+                                                </div>
+                                                <div class="col-lg-10">
+                                                    Amazon Prime (US) + DocPlay + iTunes + Lido (AU)
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </section>
+
+            </div>
+            <div ng-switch-when="Fight">
+                <section>
+                    <div class=" container-fluid div-box main2">
+                        <div class="row">
+                            <div class="col-lg-3 col-md-3">
+                                <div class="container-fluid ">
+                                    <iframe class="image" src="https://www.youtube.com/embed/tgbNymZ7vqY">
+                                    </iframe>
+                                </div>
+                            </div>
+                            <div class="col-lg-9 col-md-9">
+                                <div class="row">
+                                    <div class="col-lg-12 col-md-12 col2">
+                                        <div class="container-fluid">
+                                            <div class="row">
+                                                <div class="col-lg-2">
+                                                    Synopsis:
+                                                </div>
+                                                <div class="col-lg-10">
+                                                    One of the most memorable late 90s rom-coms to date. So many
+                                                    iconic scenes: Julia Stiles flashing the teacher on detention,
+                                                    an iconic Prada backpack conversation, a paintball first date,
+                                                    the black underwear discovery, duck liver and Heath Ledger on
+                                                    the bleachers at soccer practice. This is a great feel good film
+                                                    that takes us back to different times.
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-lg-12 col-md-12 col2">
+                                        <div class="container-fluid">
+                                            <div class="row">
+                                                <div class="col-lg-2">
+                                                    Watch if you like:
+                                                </div>
+                                                <div class="col-lg-10">
+                                                    Madonna. Reading poetry. Therapy. Unconventional ways of
+                                                    thinking. Transforming yourself.
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-lg-12 col-md-12 col2">
+                                        <div class="container-fluid">
+                                            <div class="row">
+                                                <div class="col-lg-2">
+                                                    Watch it on:
+                                                </div>
+                                                <div class="col-lg-10">
+                                                    Amazon Prime (US) + DocPlay + iTunes + Lido (AU)
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </section>
+
+            </div>
+            <div ng-switch-default>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- bollywood section -->
+
+    <section class="bd-section">
+        <div class="container row-box">
+
+            <div class="row">
+                <div class="col-lg-12">
+                    <h2 id="bolly" class="big-heading head-2">
+                        Bollywood
+                        </h1>
+
+                </div>
+
+            </div>
+
+
+            <div class="row">
+                <div class="col-lg-3 col-md-4 col-sm6 grow">
+                    <div class="container-fluid " ng-click="myVar='taare'">
+                        <a href="#dm" target="_top" style="text-decoration: none">
+                            <div class="card" style="width: 18rem;">
+                                <img src="https://i.pinimg.com/236x/73/62/cb/7362cb2629d1411725480156f6d717e8.jpg"
+                                    class="card-img-top crop" alt="...">
+                                <div class="card-body">
+                                    <p class="card-text">Taare Zameen Par</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm6 grow">
+                    <div class="container-fluid " ng-click="myVar='lunch'">
+                        <a href="" style="text-decoration: none">
+                            <div class="card" style="width: 18rem;">
+                                <img src="https://i.pinimg.com/236x/8d/a9/aa/8da9aacd054f9832d10058ef107f3374.jpg"
+                                    class="card-img-top crop" alt="...">
+                                <div class="card-body">
+                                    <p class="card-text">The Lunchbox</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm6 grow">
+                    <div class="container-fluid " ng-click="myVar='idiots'">
+                        <a href="" style="text-decoration: none">
+                            <div class="card" style="width: 18rem;">
+                                <img src="https://i.pinimg.com/236x/17/6c/0e/176c0eabcbbfd4f685dd78b64ae135ae.jpg"
+                                    class="card-img-top crop" alt="...">
+                                <div class="card-body">
+                                    <p class="card-text">3 Idiots</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm6 grow">
+                    <div class="container-fluid " ng-click="myVar='drish'">
+                        <a href="" style="text-decoration: none">
+                            <div class="card" style="width: 18rem;">
+                                <img src="https://i.pinimg.com/236x/e9/fc/25/e9fc254ba783ae07ce0241e8b60fc912.jpg"
+                                    class="card-img-top crop" alt="...">
+                                <div class="card-body">
+                                    <p class="card-text">Drishyam</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+        <!-- switch case -->
+        <div ng-switch="myVar">
+            <div ng-switch-when="taare">
+                <section>
+                    <div class=" container-fluid div-box main2">
+                        <div class="row">
+                            <div class="col-lg-3 col-md-3">
+                                <div class="container-fluid ">
+                                    <iframe class="image" src="https://www.youtube.com/embed/tgbNymZ7vqY">
+                                    </iframe>
+                                </div>
+                            </div>
+                            <div class="col-lg-9 col-md-9">
+                                <div class="row">
+                                    <div class="col-lg-12 col-md-12 col2">
+                                        <div class="container-fluid">
+                                            <div class="row">
+                                                <div class="col-lg-2">
+                                                    Synopsis:
+                                                </div>
+                                                <div class="col-lg-10">
+                                                    One of the most memorable late 90s rom-coms to date. So many iconic
+                                                    scenes: Julia Stiles flashing the teacher on detention, an iconic
+                                                    Prada backpack conversation, a paintball first date, the black
+                                                    underwear discovery, duck liver and Heath Ledger on the bleachers at
+                                                    soccer practice. This is a great feel good film that takes us back
+                                                    to different times.
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-lg-12 col-md-12 col2">
+                                        <div class="container-fluid">
+                                            <div class="row">
+                                                <div class="col-lg-2">
+                                                    Watch if you like:
+                                                </div>
+                                                <div class="col-lg-10">
+                                                    Madonna. Reading poetry. Therapy. Unconventional ways of thinking.
+                                                    Transforming yourself.
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-lg-12 col-md-12 col2">
+                                        <div class="container-fluid">
+                                            <div class="row">
+                                                <div class="col-lg-2">
+                                                    Watch it on:
+                                                </div>
+                                                <div class="col-lg-10">
+                                                    Amazon Prime (US) + DocPlay + iTunes + Lido (AU)
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </section>
+
+            </div>
+            <div ng-switch-when="lunch">
+                <section>
+                    <div class=" container-fluid div-box main2">
+                        <div class="row">
+                            <div class="col-lg-3 col-md-3">
+                                <div class="container-fluid ">
+                                    <iframe class="image" src="https://www.youtube.com/embed/tgbNymZ7vqY">
+                                    </iframe>
+                                </div>
+                            </div>
+                            <div class="col-lg-9 col-md-9">
+                                <div class="row">
+                                    <div class="col-lg-12 col-md-12 col2">
+                                        <div class="container-fluid">
+                                            <div class="row">
+                                                <div class="col-lg-2">
+                                                    Synopsis:
+                                                </div>
+                                                <div class="col-lg-10">
+                                                    One of the most memorable late 90s rom-coms to date. So many
+                                                    iconic scenes: Julia Stiles flashing the teacher on detention,
+                                                    an iconic Prada backpack conversation, a paintball first date,
+                                                    the black underwear discovery, duck liver and Heath Ledger on
+                                                    the bleachers at soccer practice. This is a great feel good film
+                                                    that takes us back to different times.
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-lg-12 col-md-12 col2">
+                                        <div class="container-fluid">
+                                            <div class="row">
+                                                <div class="col-lg-2">
+                                                    Watch if you like:
+                                                </div>
+                                                <div class="col-lg-10">
+                                                    Madonna. Reading poetry. Therapy. Unconventional ways of
+                                                    thinking. Transforming yourself.
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-lg-12 col-md-12 col2">
+                                        <div class="container-fluid">
+                                            <div class="row">
+                                                <div class="col-lg-2">
+                                                    Watch it on:
+                                                </div>
+                                                <div class="col-lg-10">
+                                                    Amazon Prime (US) + DocPlay + iTunes + Lido (AU)
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </section>
+
+            </div>
+            <div ng-switch-when="idiots">
+                <section>
+                    <div class=" container-fluid div-box main2">
+                        <div class="row">
+                            <div class="col-lg-3 col-md-3">
+                                <div class="container-fluid ">
+                                    <iframe class="image" src="https://www.youtube.com/embed/tgbNymZ7vqY">
+                                    </iframe>
+                                </div>
+                            </div>
+                            <div class="col-lg-9 col-md-9">
+                                <div class="row">
+                                    <div class="col-lg-12 col-md-12 col2">
+                                        <div class="container-fluid">
+                                            <div class="row">
+                                                <div class="col-lg-2">
+                                                    Synopsis:
+                                                </div>
+                                                <div class="col-lg-10">
+                                                    One of the most memorable late 90s rom-coms to date. So many
+                                                    iconic scenes: Julia Stiles flashing the teacher on detention,
+                                                    an iconic Prada backpack conversation, a paintball first date,
+                                                    the black underwear discovery, duck liver and Heath Ledger on
+                                                    the bleachers at soccer practice. This is a great feel good film
+                                                    that takes us back to different times.
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-lg-12 col-md-12 col2">
+                                        <div class="container-fluid">
+                                            <div class="row">
+                                                <div class="col-lg-2">
+                                                    Watch if you like:
+                                                </div>
+                                                <div class="col-lg-10">
+                                                    Madonna. Reading poetry. Therapy. Unconventional ways of
+                                                    thinking. Transforming yourself.
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-lg-12 col-md-12 col2">
+                                        <div class="container-fluid">
+                                            <div class="row">
+                                                <div class="col-lg-2">
+                                                    Watch it on:
+                                                </div>
+                                                <div class="col-lg-10">
+                                                    Amazon Prime (US) + DocPlay + iTunes + Lido (AU)
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </section>
+
+            </div>
+            <div ng-switch-when="drish">
+                <section>
+                    <div class=" container-fluid div-box main2">
+                        <div class="row">
+                            <div class="col-lg-3 col-md-3">
+                                <div class="container-fluid ">
+                                    <iframe class="image" src="https://www.youtube.com/embed/tgbNymZ7vqY">
+                                    </iframe>
+                                </div>
+                            </div>
+                            <div class="col-lg-9 col-md-9">
+                                <div class="row">
+                                    <div class="col-lg-12 col-md-12 col2">
+                                        <div class="container-fluid">
+                                            <div class="row">
+                                                <div class="col-lg-2">
+                                                    Synopsis:
+                                                </div>
+                                                <div class="col-lg-10">
+                                                    One of the most memorable late 90s rom-coms to date. So many
+                                                    iconic scenes: Julia Stiles flashing the teacher on detention,
+                                                    an iconic Prada backpack conversation, a paintball first date,
+                                                    the black underwear discovery, duck liver and Heath Ledger on
+                                                    the bleachers at soccer practice. This is a great feel good film
+                                                    that takes us back to different times.
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-lg-12 col-md-12 col2">
+                                        <div class="container-fluid">
+                                            <div class="row">
+                                                <div class="col-lg-2">
+                                                    Watch if you like:
+                                                </div>
+                                                <div class="col-lg-10">
+                                                    Madonna. Reading poetry. Therapy. Unconventional ways of
+                                                    thinking. Transforming yourself.
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-lg-12 col-md-12 col2">
+                                        <div class="container-fluid">
+                                            <div class="row">
+                                                <div class="col-lg-2">
+                                                    Watch it on:
+                                                </div>
+                                                <div class="col-lg-10">
+                                                    Amazon Prime (US) + DocPlay + iTunes + Lido (AU)
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </section>
+
+            </div>
+            <div ng-switch-default>
+            </div>
+        </div>
+
+
+    </section>
+
+    <!-- korean section -->
+
+    <section class="kn-section">
+        <div class="container row-box">
+
+            <div class="row">
+                <div class="col-lg-12">
+                    <h2 id="korean" class="big-heading head-2">
+                        korean
+                        </h1>
+
+                </div>
+
+            </div>
+
+
+            <div class="row">
+                <div class="col-lg-3 col-md-4 col-sm6 grow">
+                    <div class="container-fluid " ng-click="myVar='old'">
+                        <a href="#dm" target="_top" style="text-decoration: none">
+                            <div class="card" style="width: 18rem;">
+                                <img src="https://i.pinimg.com/236x/55/03/e9/5503e9b0d75a7ee2895dd2c2f9de2fdc.jpg"
+                                    class="card-img-top crop" alt="...">
+                                <div class="card-body">
+                                    <p class="card-text">Oldboy</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm6 grow">
+                    <div class="container-fluid " ng-click="myVar='mom'">
+                        <a href="" style="text-decoration: none">
+                            <div class="card" style="width: 18rem;">
+                                <img src="https://i.pinimg.com/236x/65/ad/e4/65ade422a0387981a6a0f72c9d3dc516.jpg"
+                                    class="card-img-top crop" alt="...">
+                                <div class="card-body">
+                                    <p class="card-text">Memories of Murder </p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm6 grow">
+                    <div class="container-fluid " ng-click="myVar='para'">
+                        <a href="" style="text-decoration: none">
+                            <div class="card" style="width: 18rem;">
+                                <img src="https://i.pinimg.com/236x/a9/7d/26/a97d26449214bb756c75b4ed88d7b06e.jpg"
+                                    class="card-img-top crop" alt="...">
+                                <div class="card-body">
+                                    <p class="card-text">Parasite</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm6 grow">
+                    <div class="container-fluid " ng-click="myVar='isd'">
+                        <a href="" style="text-decoration: none">
+                            <div class="card" style="width: 18rem;">
+                                <img src="https://i.pinimg.com/236x/6a/4c/54/6a4c54c469416ae983266058f021a220.jpg"
+                                    class="card-img-top crop" alt="...">
+                                <div class="card-body">
+                                    <p class="card-text">I Saw the Devil</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+        <!-- switch case -->
+        <div ng-switch="myVar">
+            <div ng-switch-when="old">
+                <section>
+                    <div class=" container-fluid div-box main2">
+                        <div class="row">
+                            <div class="col-lg-3 col-md-3">
+                                <div class="container-fluid ">
+                                    <iframe class="image" src="https://www.youtube.com/embed/tgbNymZ7vqY">
+                                    </iframe>
+                                </div>
+                            </div>
+                            <div class="col-lg-9 col-md-9">
+                                <div class="row">
+                                    <div class="col-lg-12 col-md-12 col2">
+                                        <div class="container-fluid">
+                                            <div class="row">
+                                                <div class="col-lg-2">
+                                                    Synopsis:
+                                                </div>
+                                                <div class="col-lg-10">
+                                                    One of the most memorable late 90s rom-coms to date. So many iconic
+                                                    scenes: Julia Stiles flashing the teacher on detention, an iconic
+                                                    Prada backpack conversation, a paintball first date, the black
+                                                    underwear discovery, duck liver and Heath Ledger on the bleachers at
+                                                    soccer practice. This is a great feel good film that takes us back
+                                                    to different times.
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-lg-12 col-md-12 col2">
+                                        <div class="container-fluid">
+                                            <div class="row">
+                                                <div class="col-lg-2">
+                                                    Watch if you like:
+                                                </div>
+                                                <div class="col-lg-10">
+                                                    Madonna. Reading poetry. Therapy. Unconventional ways of thinking.
+                                                    Transforming yourself.
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-lg-12 col-md-12 col2">
+                                        <div class="container-fluid">
+                                            <div class="row">
+                                                <div class="col-lg-2">
+                                                    Watch it on:
+                                                </div>
+                                                <div class="col-lg-10">
+                                                    Amazon Prime (US) + DocPlay + iTunes + Lido (AU)
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </section>
+
+            </div>
+            <div ng-switch-when="mom">
+                <section>
+                    <div class=" container-fluid div-box main2">
+                        <div class="row">
+                            <div class="col-lg-3 col-md-3">
+                                <div class="container-fluid ">
+                                    <iframe class="image" src="https://www.youtube.com/embed/tgbNymZ7vqY">
+                                    </iframe>
+                                </div>
+                            </div>
+                            <div class="col-lg-9 col-md-9">
+                                <div class="row">
+                                    <div class="col-lg-12 col-md-12 col2">
+                                        <div class="container-fluid">
+                                            <div class="row">
+                                                <div class="col-lg-2">
+                                                    Synopsis:
+                                                </div>
+                                                <div class="col-lg-10">
+                                                    One of the most memorable late 90s rom-coms to date. So many
+                                                    iconic scenes: Julia Stiles flashing the teacher on detention,
+                                                    an iconic Prada backpack conversation, a paintball first date,
+                                                    the black underwear discovery, duck liver and Heath Ledger on
+                                                    the bleachers at soccer practice. This is a great feel good film
+                                                    that takes us back to different times.
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-lg-12 col-md-12 col2">
+                                        <div class="container-fluid">
+                                            <div class="row">
+                                                <div class="col-lg-2">
+                                                    Watch if you like:
+                                                </div>
+                                                <div class="col-lg-10">
+                                                    Madonna. Reading poetry. Therapy. Unconventional ways of
+                                                    thinking. Transforming yourself.
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-lg-12 col-md-12 col2">
+                                        <div class="container-fluid">
+                                            <div class="row">
+                                                <div class="col-lg-2">
+                                                    Watch it on:
+                                                </div>
+                                                <div class="col-lg-10">
+                                                    Amazon Prime (US) + DocPlay + iTunes + Lido (AU)
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </section>
+
+            </div>
+            <div ng-switch-when="para">
+                <section>
+                    <div class=" container-fluid div-box main2">
+                        <div class="row">
+                            <div class="col-lg-3 col-md-3">
+                                <div class="container-fluid ">
+                                    <iframe class="image" src="https://www.youtube.com/embed/tgbNymZ7vqY">
+                                    </iframe>
+                                </div>
+                            </div>
+                            <div class="col-lg-9 col-md-9">
+                                <div class="row">
+                                    <div class="col-lg-12 col-md-12 col2">
+                                        <div class="container-fluid">
+                                            <div class="row">
+                                                <div class="col-lg-2">
+                                                    Synopsis:
+                                                </div>
+                                                <div class="col-lg-10">
+                                                    One of the most memorable late 90s rom-coms to date. So many
+                                                    iconic scenes: Julia Stiles flashing the teacher on detention,
+                                                    an iconic Prada backpack conversation, a paintball first date,
+                                                    the black underwear discovery, duck liver and Heath Ledger on
+                                                    the bleachers at soccer practice. This is a great feel good film
+                                                    that takes us back to different times.
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-lg-12 col-md-12 col2">
+                                        <div class="container-fluid">
+                                            <div class="row">
+                                                <div class="col-lg-2">
+                                                    Watch if you like:
+                                                </div>
+                                                <div class="col-lg-10">
+                                                    Madonna. Reading poetry. Therapy. Unconventional ways of
+                                                    thinking. Transforming yourself.
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-lg-12 col-md-12 col2">
+                                        <div class="container-fluid">
+                                            <div class="row">
+                                                <div class="col-lg-2">
+                                                    Watch it on:
+                                                </div>
+                                                <div class="col-lg-10">
+                                                    Amazon Prime (US) + DocPlay + iTunes + Lido (AU)
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </section>
+
+            </div>
+            <div ng-switch-when="isd">
+                <section>
+                    <div class=" container-fluid div-box main2">
+                        <div class="row">
+                            <div class="col-lg-3 col-md-3">
+                                <div class="container-fluid ">
+                                    <iframe class="image" src="https://www.youtube.com/embed/tgbNymZ7vqY">
+                                    </iframe>
+                                </div>
+                            </div>
+                            <div class="col-lg-9 col-md-9">
+                                <div class="row">
+                                    <div class="col-lg-12 col-md-12 col2">
+                                        <div class="container-fluid">
+                                            <div class="row">
+                                                <div class="col-lg-2">
+                                                    Synopsis:
+                                                </div>
+                                                <div class="col-lg-10">
+                                                    One of the most memorable late 90s rom-coms to date. So many
+                                                    iconic scenes: Julia Stiles flashing the teacher on detention,
+                                                    an iconic Prada backpack conversation, a paintball first date,
+                                                    the black underwear discovery, duck liver and Heath Ledger on
+                                                    the bleachers at soccer practice. This is a great feel good film
+                                                    that takes us back to different times.
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-lg-12 col-md-12 col2">
+                                        <div class="container-fluid">
+                                            <div class="row">
+                                                <div class="col-lg-2">
+                                                    Watch if you like:
+                                                </div>
+                                                <div class="col-lg-10">
+                                                    Madonna. Reading poetry. Therapy. Unconventional ways of
+                                                    thinking. Transforming yourself.
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-lg-12 col-md-12 col2">
+                                        <div class="container-fluid">
+                                            <div class="row">
+                                                <div class="col-lg-2">
+                                                    Watch it on:
+                                                </div>
+                                                <div class="col-lg-10">
+                                                    Amazon Prime (US) + DocPlay + iTunes + Lido (AU)
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </section>
+
+            </div>
+            <div ng-switch-default>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- webseries section -->
+
+    <section class="bd-section">
+        <div class="container row-box">
+
+            <div class="row">
+                <div class="col-lg-12">
+                    <h2 id="web" class="big-heading head-2">
+                        Web Series
+                        </h1>
+
+                </div>
+
+            </div>
+
+
+            <div class="row">
+                <div class="col-lg-3 col-md-4 col-sm6 grow">
+                    <div class="container-fluid " ng-click="myVar='BB'">
+                        <a href="#dm" target="_top" style="text-decoration: none">
+                            <div class="card" style="width: 18rem;">
+                                <img src="https://i.pinimg.com/236x/fe/9b/68/fe9b686f5d90db771e8b1f7e969f30c9.jpg"
+                                    class="card-img-top crop" alt="...">
+                                <div class="card-body">
+                                    <p class="card-text">Breaking Bad</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm6 grow">
+                    <div class="container-fluid " ng-click="myVar='GOT'">
+                        <a href="" style="text-decoration: none">
+                            <div class="card" style="width: 18rem;">
+                                <img src="https://i.pinimg.com/236x/29/50/d3/2950d35edaf94a68825431d1335ea06d.jpg"
+                                    class="card-img-top crop" alt="...">
+                                <div class="card-body">
+                                    <p class="card-text">Game of Thrones</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm6 grow">
+                    <div class="container-fluid " ng-click="myVar='boys'">
+                        <a href="" style="text-decoration: none">
+                            <div class="card" style="width: 18rem;">
+                                <img src="https://i.pinimg.com/236x/e4/6a/57/e46a5791f5dfbf78ba6a5c0e56dc497e.jpg"
+                                    class="card-img-top crop" alt="...">
+                                <div class="card-body">
+                                    <p class="card-text">The Boys</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm6 grow">
+                    <div class="container-fluid " ng-click="myVar='stranger'">
+                        <a href="" style="text-decoration: none">
+                            <div class="card" style="width: 18rem;">
+                                <img src="https://i.pinimg.com/236x/68/e5/2d/68e52d36b12d8ace015f580f6aaaa858.jpg"
+                                    class="card-img-top crop" alt="...">
+                                <div class="card-body">
+                                    <p class="card-text">Stranger Things</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+        <!-- switch case -->
+        <div ng-switch="myVar">
+            <div ng-switch-when="BB">
+                <section>
+                    <div class=" container-fluid div-box main2">
+                        <div class="row">
+                            <div class="col-lg-3 col-md-3">
+                                <div class="container-fluid ">
+                                    <iframe class="image" src="https://www.youtube.com/embed/tgbNymZ7vqY">
+                                    </iframe>
+                                </div>
+                            </div>
+                            <div class="col-lg-9 col-md-9">
+                                <div class="row">
+                                    <div class="col-lg-12 col-md-12 col2">
+                                        <div class="container-fluid">
+                                            <div class="row">
+                                                <div class="col-lg-2">
+                                                    Synopsis:
+                                                </div>
+                                                <div class="col-lg-10">
+                                                    One of the most memorable late 90s rom-coms to date. So many iconic
+                                                    scenes: Julia Stiles flashing the teacher on detention, an iconic
+                                                    Prada backpack conversation, a paintball first date, the black
+                                                    underwear discovery, duck liver and Heath Ledger on the bleachers at
+                                                    soccer practice. This is a great feel good film that takes us back
+                                                    to different times.
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-lg-12 col-md-12 col2">
+                                        <div class="container-fluid">
+                                            <div class="row">
+                                                <div class="col-lg-2">
+                                                    Watch if you like:
+                                                </div>
+                                                <div class="col-lg-10">
+                                                    Madonna. Reading poetry. Therapy. Unconventional ways of thinking.
+                                                    Transforming yourself.
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-lg-12 col-md-12 col2">
+                                        <div class="container-fluid">
+                                            <div class="row">
+                                                <div class="col-lg-2">
+                                                    Watch it on:
+                                                </div>
+                                                <div class="col-lg-10">
+                                                    Amazon Prime (US) + DocPlay + iTunes + Lido (AU)
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </section>
+
+            </div>
+            <div ng-switch-when="GOT">
+                <section>
+                    <div class=" container-fluid div-box main2">
+                        <div class="row">
+                            <div class="col-lg-3 col-md-3">
+                                <div class="container-fluid ">
+                                    <iframe class="image" src="https://www.youtube.com/embed/tgbNymZ7vqY">
+                                    </iframe>
+                                </div>
+                            </div>
+                            <div class="col-lg-9 col-md-9">
+                                <div class="row">
+                                    <div class="col-lg-12 col-md-12 col2">
+                                        <div class="container-fluid">
+                                            <div class="row">
+                                                <div class="col-lg-2">
+                                                    Synopsis:
+                                                </div>
+                                                <div class="col-lg-10">
+                                                    One of the most memorable late 90s rom-coms to date. So many
+                                                    iconic scenes: Julia Stiles flashing the teacher on detention,
+                                                    an iconic Prada backpack conversation, a paintball first date,
+                                                    the black underwear discovery, duck liver and Heath Ledger on
+                                                    the bleachers at soccer practice. This is a great feel good film
+                                                    that takes us back to different times.
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-lg-12 col-md-12 col2">
+                                        <div class="container-fluid">
+                                            <div class="row">
+                                                <div class="col-lg-2">
+                                                    Watch if you like:
+                                                </div>
+                                                <div class="col-lg-10">
+                                                    Madonna. Reading poetry. Therapy. Unconventional ways of
+                                                    thinking. Transforming yourself.
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-lg-12 col-md-12 col2">
+                                        <div class="container-fluid">
+                                            <div class="row">
+                                                <div class="col-lg-2">
+                                                    Watch it on:
+                                                </div>
+                                                <div class="col-lg-10">
+                                                    Amazon Prime (US) + DocPlay + iTunes + Lido (AU)
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </section>
+
+            </div>
+            <div ng-switch-when="boys">
+                <section>
+                    <div class=" container-fluid div-box main2">
+                        <div class="row">
+                            <div class="col-lg-3 col-md-3">
+                                <div class="container-fluid ">
+                                    <iframe class="image" src="https://www.youtube.com/embed/tgbNymZ7vqY">
+                                    </iframe>
+                                </div>
+                            </div>
+                            <div class="col-lg-9 col-md-9">
+                                <div class="row">
+                                    <div class="col-lg-12 col-md-12 col2">
+                                        <div class="container-fluid">
+                                            <div class="row">
+                                                <div class="col-lg-2">
+                                                    Synopsis:
+                                                </div>
+                                                <div class="col-lg-10">
+                                                    One of the most memorable late 90s rom-coms to date. So many
+                                                    iconic scenes: Julia Stiles flashing the teacher on detention,
+                                                    an iconic Prada backpack conversation, a paintball first date,
+                                                    the black underwear discovery, duck liver and Heath Ledger on
+                                                    the bleachers at soccer practice. This is a great feel good film
+                                                    that takes us back to different times.
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-lg-12 col-md-12 col2">
+                                        <div class="container-fluid">
+                                            <div class="row">
+                                                <div class="col-lg-2">
+                                                    Watch if you like:
+                                                </div>
+                                                <div class="col-lg-10">
+                                                    Madonna. Reading poetry. Therapy. Unconventional ways of
+                                                    thinking. Transforming yourself.
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-lg-12 col-md-12 col2">
+                                        <div class="container-fluid">
+                                            <div class="row">
+                                                <div class="col-lg-2">
+                                                    Watch it on:
+                                                </div>
+                                                <div class="col-lg-10">
+                                                    Amazon Prime (US) + DocPlay + iTunes + Lido (AU)
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </section>
+
+            </div>
+            <div ng-switch-when="stranger">
+                <section>
+                    <div class=" container-fluid div-box main2">
+                        <div class="row">
+                            <div class="col-lg-3 col-md-3">
+                                <div class="container-fluid ">
+                                    <iframe class="image" src="https://www.youtube.com/embed/tgbNymZ7vqY">
+                                    </iframe>
+                                </div>
+                            </div>
+                            <div class="col-lg-9 col-md-9">
+                                <div class="row">
+                                    <div class="col-lg-12 col-md-12 col2">
+                                        <div class="container-fluid">
+                                            <div class="row">
+                                                <div class="col-lg-2">
+                                                    Synopsis:
+                                                </div>
+                                                <div class="col-lg-10">
+                                                    One of the most memorable late 90s rom-coms to date. So many
+                                                    iconic scenes: Julia Stiles flashing the teacher on detention,
+                                                    an iconic Prada backpack conversation, a paintball first date,
+                                                    the black underwear discovery, duck liver and Heath Ledger on
+                                                    the bleachers at soccer practice. This is a great feel good film
+                                                    that takes us back to different times.
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-lg-12 col-md-12 col2">
+                                        <div class="container-fluid">
+                                            <div class="row">
+                                                <div class="col-lg-2">
+                                                    Watch if you like:
+                                                </div>
+                                                <div class="col-lg-10">
+                                                    Madonna. Reading poetry. Therapy. Unconventional ways of
+                                                    thinking. Transforming yourself.
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-lg-12 col-md-12 col2">
+                                        <div class="container-fluid">
+                                            <div class="row">
+                                                <div class="col-lg-2">
+                                                    Watch it on:
+                                                </div>
+                                                <div class="col-lg-10">
+                                                    Amazon Prime (US) + DocPlay + iTunes + Lido (AU)
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </section>
+
+            </div>
+            <div ng-switch-default>
+            </div>
+        </div>
+
+    </section>
+
+
+
+
+
+
+
+</body>
+
+</html>
